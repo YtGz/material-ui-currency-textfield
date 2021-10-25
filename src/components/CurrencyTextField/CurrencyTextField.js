@@ -95,7 +95,6 @@ class CurrencyTextField extends React.Component {
       "tabIndex",
       "fullWidth",
       "rows",
-      "rowsMax",
       "select",
       "required",
       "helperText",
@@ -204,9 +203,7 @@ CurrencyTextField.propTypes = {
   /** Defines if the element should be set as read only on initialization. */
   readOnly: PropTypes.bool,
   /** predefined objects are available in <a href="https://www.nodenpm.com/autonumeric/4.5.1/detail.html#predefined-options">AutoNumeric</a>*/
-  preDefined: PropTypes.object,
-  caretPositionOnFocus: PropTypes.oneOf(["start","end","decimalLeft","decimalRignt", null])
-
+  preDefined: PropTypes.object
 }
 
 CurrencyTextField.defaultProps = {
